@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contacto | Mil Sabores</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="top-note">Hecho en casa, con recetas heredadas y un poquito de cariño sureño. 🍰</div>
+<header class="site-header">
+  <div class="container navbar">
+    <a class="brand" href="index.html">
+      <div class="brand-mark">🍰</div>
+      <div class="brand-text"><strong>Mil Sabores</strong><span>Pastelería de nuestras abuelitas</span></div>
+    </a>
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="productos.html">Dulces</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="blog.html">Recetario</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="admin/productos.html">Administración</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="icon-btn" href="login.html" aria-label="Iniciar sesión" data-auth-label title="Ingresar">Ingresar</a>
+      <a class="icon-btn" href="carrito.html" aria-label="Carrito">🧺<span class="badge" data-cart-count>0</span></a>
+    </div>
+  </div>
+</header>
+<main>
+<section class="page-hero"><div class="container"><div class="breadcrumbs">Inicio / Contacto</div><h1>Conversemos un ratito</h1><p class="lead">Escríbenos por pedidos, recetas o simplemente para saludar.</p></div></section>
+<section class="section"><div class="container contact-grid">
+<div class="form-card"><form id="contact-form" novalidate><div class="success"></div>
+<div class="form-group"><label for="name">Nombre</label><input class="form-control" id="name" name="name"><div class="error" data-error="name"></div></div>
+<div class="form-group"><label for="email">Correo</label><input class="form-control" id="email" name="email" type="email"><div class="error" data-error="email"></div></div>
+<div class="form-group"><label for="message">Mensaje</label><textarea class="form-control" id="message" name="message" rows="6"></textarea><div class="error" data-error="message"></div></div>
+<button class="btn btn-primary" type="submit">Enviar con cariño</button></form></div>
+<div class="info-card"><h2>La cocina</h2><div class="info-list">
+<div class="info-item"><div class="info-icon">📍</div><div><strong>Ubicación</strong><br><span class="form-help">Santiago, Chile · atención online</span></div></div>
+<div class="info-item"><div class="info-icon">✉️</div><div><strong>Correo</strong><br><span class="form-help">hola@milsabores.cl</span></div></div>
+<div class="info-item"><div class="info-icon">🕐</div><div><strong>Horarios</strong><br><span class="form-help">Lun-Vie, 09:00 a 18:00</span></div></div>
+</div><hr class="soft"><p><strong>Impacto comunitario</strong><br>La propuesta reserva un espacio para compartir recetas y consejos de estudiantes de gastronomía, tal como plantea el caso.</p></div>
+</div></section></main>
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <h3>Mil Sabores</h3>
+      <p>Una mesa imaginaria donde se encuentran las recetas árabes de nuestras familias con los sabores del sur de Chile.</p>
+    </div>
+    <div>
+      <h3>La casa</h3>
+      <p><a href="nosotros.html">Nuestra historia</a></p>
+      <p><a href="blog.html">Recetario y consejos</a></p>
+      <p><a href="contacto.html">Hablar con nosotros</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">1000 Sabores · 2026</div>
+</footer>
+<script src="js/products.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

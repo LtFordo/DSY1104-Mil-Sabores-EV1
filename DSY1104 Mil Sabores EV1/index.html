@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mil Sabores | Pastelería árabe-chilena</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="top-note">Hecho en casa, con recetas heredadas y un poquito de cariño sureño. 🍰</div>
+<header class="site-header">
+  <div class="container navbar">
+    <a class="brand" href="index.html">
+      <div class="brand-mark">🍰</div>
+      <div class="brand-text"><strong>Mil Sabores</strong><span>Pastelería de nuestras abuelitas</span></div>
+    </a>
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="productos.html">Dulces</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="blog.html">Recetario</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="admin/productos.html">Administración</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="icon-btn" href="login.html" aria-label="Iniciar sesión" data-auth-label title="Ingresar">Ingresar</a>
+      <a class="icon-btn" href="carrito.html" aria-label="Carrito">🧺<span class="badge" data-cart-count>0</span></a>
+    </div>
+  </div>
+</header>
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">50 años celebrando la mesa chilena</div>
+      <h1>Dulces con <span>historia</span>, hechos como en casa.</h1>
+      <p class="lead">Bienvenidos a la mesa de Mil Sabores: repostería árabe y chilena con influencia del sur, inspirada en esas abuelitas que siempre tienen algo recién horneado para convidar.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="productos.html">Ver la vitrina</a>
+        <a class="btn btn-secondary" href="nosotros.html">Conocer nuestra historia</a>
+      </div>
+      <div class="quote-card">
+        <div style="font-size:1.7rem">🫖</div>
+        <div><div class="quote">“Pase no más, mijito. El té ya está servido.”</div><div class="form-help">Tradición familiar, paciencia y muchas recetas anotadas a mano.</div></div>
+      </div>
+    </div>
+    <div>
+      <div class="hero-card"><img src="assets/img/tc001.svg" alt="Ilustración de aristelos de dátiles y nueces"></div>
+      <div class="quote-card"><div style="font-size:1.5rem">🌿</div><div><strong>De Levante a la Patagonia</strong><div class="form-help">Sabores árabes, manjar, frutos secos, manzanas y recuerdos del sur.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-title"><h2>Los favoritos de la casa</h2><p>Una vitrina de dulces para acompañar el café, el té o esa visita que llega “por un ratito”.</p></div>
+    <div class="products-grid" id="featured-products"></div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <div class="section-title"><h2>En esta cocina caben muchas tradiciones</h2><p>El catálogo conserva las categorías del caso y suma una identidad árabe-chilena sureña.</p></div>
+    <div class="category-grid">
+      <a class="category-card" href="productos.html"><div class="emoji">🍰</div><h3>Tortas Cuadradas</h3><p>Aristelos, manjar, nueces y bizcochos caseros.</p></a>
+      <a class="category-card" href="productos.html"><div class="emoji">🌹</div><h3>Tortas Circulares</h3><p>Naranja, almendras, cardamomo y celebraciones.</p></a>
+      <a class="category-card" href="productos.html"><div class="emoji">☕</div><h3>Postres Individuales</h3><p>Pequeños cariños para una pausa dulce.</p></a>
+      <a class="category-card" href="productos.html"><div class="emoji">🌱</div><h3>Opciones especiales</h3><p>Sin azúcar, sin gluten y veganas.</p></a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container banner">
+    <div><h3>¿Tienes una fecha especial?</h3><p>Las tortas especiales permiten agregar dedicatorias y detalles para que la celebración se sienta hecha a mano.</p></div>
+    <a class="btn btn-primary" href="detalle.html?codigo=TE001">Personalizar una torta</a>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <h3>Mil Sabores</h3>
+      <p>Una mesa imaginaria donde se encuentran las recetas árabes de nuestras familias con los sabores del sur de Chile.</p>
+    </div>
+    <div>
+      <h3>La casa</h3>
+      <p><a href="nosotros.html">Nuestra historia</a></p>
+      <p><a href="blog.html">Recetario y consejos</a></p>
+      <p><a href="contacto.html">Hablar con nosotros</a></p>
+    </div>
+    <div>
+  </div>
+  <div class="container footer-bottom">1000 Sabores · 2026</div>
+</footer>
+<script src="js/products.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
